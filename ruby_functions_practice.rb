@@ -28,6 +28,16 @@
 	end
 
 #6
-	def length_of_string
+	def length_of_string(test_string)
 		test_string.length
+	end
+
+#7
+	def join_string(string_1, string_2)
+		string_1 + string_2
+	end
+
+#8
+	def add_string_as_number(string_1, string_2)
+		string_1.to_i + string_2.to_i
 	end
