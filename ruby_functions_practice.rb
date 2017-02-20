@@ -53,6 +53,21 @@
 			when 9
 				month_name = "September"
 		end
-		month_name
+
+		return month_name
 	end
 
+#10
+	def substring(number)
+		month_name = 
+		case number
+			when 1
+				month_name = "Jan"
+			when 3
+				month_name = "Mar"
+			when 9
+				month_name = "Sep"
+		end
+
+		return month_name
+	end
